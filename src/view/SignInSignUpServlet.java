@@ -16,6 +16,7 @@ public class SignInSignUpServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 
+
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 
